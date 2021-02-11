@@ -1148,7 +1148,7 @@ void *binlog_thread(void *data) {
 #endif
 void start_dump(MYSQL *conn)
 {
-	struct configuration conf = { 1, NULL, NULL, NULL, NULL, NULL, NULL, 0 };
+	struct configuration conf = { 1, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0 };
 	char *p;
 	char *p2;
 	char *p3;
